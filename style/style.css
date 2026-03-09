@@ -1,0 +1,54 @@
+/* reset van standaard marges */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family: Arial, sans-serif;
+background-color:#f4f4f4;
+min-height:100vh;
+display:flex;
+flex-direction:column;
+}
+
+/* header */
+header{
+background-color:darkred;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+/* menu */
+nav{
+margin-top:10px;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+font-size:18px;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+/* hoofdinhoud */
+main{
+flex:1;
+padding:40px;
+background:white;
+}
+
+/* footer */
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+}
